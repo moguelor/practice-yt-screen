@@ -1,0 +1,161 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  width: 232px;
+  height: 100%;
+  background-color: #212121;
+  padding: 16px;
+}
+
+.container-icons {
+  display: flex;
+  align-items: center;
+}
+
+.yt-logo {
+  margin-left: 18px;
+}
+
+.menu {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.menu-item {
+  width: 100%;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.menu-item img {
+  margin-right: 20px;
+}
+
+.menu-item.active {
+  background-color: #383838;
+  font-weight: 600;
+}
+
+.content {
+  background-color: #181818;
+  flex: 1;
+  padding: 30px 15px 30px 90px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar input {
+  width: 578px;
+  border: 1px solid #323232;
+  background: #181818;
+  padding: 10px 5px;
+}
+
+.search-bar button {
+  background: #323232;
+  border: none;
+  width: 56px;
+}
+
+.search-bar .voice-icon {
+  margin-left: 8px;
+}
+
+.top .container-icons img {
+  margin-left: 20px;
+}
+
+.categories {
+  display: flex;
+  width: 90%;
+  border-top: 1px solid #383838;
+  border-bottom: 1px solid #383838;
+  margin-top: 12px;
+  padding: 12px 0px;
+}
+
+.category-item {
+  background: #383838;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 8px 12px;
+  margin-right: 12px;
+  border-radius: 25px;
+  color: #fff;
+  border: 1px solid #474747;
+}
+
+.category-item.active {
+  background: #fff;
+  color: #000;
+  border: none;
+}
+
+.videos {
+  margin-top: 12px;
+}
+
+.item-video .info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 250px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.info .logo-studio {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.wrapper-views {
+  color: #aaaaaa;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.studio-name {
+  display: flex;
+  align-items: center;
+}
+
+.studio-name img {
+  margin-left: 5px;
+}
+
+.bullet {
+  width: 3px;
+  height: 3px;
+  border-radius: 3px;
+  background: #aaaaaa;
+  content: " ";
+  margin: 5px;
+}
+
+.more-info {
+  display: flex;
+  align-items: center;
+}
